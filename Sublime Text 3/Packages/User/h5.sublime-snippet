@@ -1,0 +1,28 @@
+<snippet>
+	<content>
+		<![CDATA[
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title></title>
+		    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+		    <meta name="renderer" content="webkit">
+		    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		    <link rel="stylesheet" type="text/css" href="/develop/styles/index.css">
+		</head>
+		<body>
+			<div id="root"></div>
+			<script>var basePath='';</script>
+			<script type="text/javascript" src='/dist/config/config.js'></script>
+			<script type="text/javascript" src="/develop/scripts/common.js"></script>
+		</body>
+			<script type="text/javascript" src="/develop/scripts/index.js"></script>
+		</body>
+		</html>
+	]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>h5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>index.html</scope>
+</snippet>

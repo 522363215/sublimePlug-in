@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"Build Next",
+		"ConvertToUTF8",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet Css Snippets",
+		"ESLint",
+		"HTML-CSS-JS Prettify",
+		"JsFormat",
+		"LaTeX Word Count",
+		"Package Control",
+		"SassBeautify",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Terminal"
+	]
+}

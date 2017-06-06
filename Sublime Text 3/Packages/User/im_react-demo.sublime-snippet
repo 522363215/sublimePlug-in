@@ -1,0 +1,54 @@
+<snippet>
+	<content>
+import React, {
+	Component,
+	PropTypes
+} from 'react';
+import {
+	is
+} from 'immutable';
+
+const propTypes = {
+
+};
+const defaultProps = {
+
+};
+
+class SelectPlus extends Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+
+		};
+	}
+
+	componentDidMount() {
+
+	}
+
+	componentWillReceiveProps(nextProps) {
+
+	}
+
+	shouldComponentUpdate(nextProps, nextState) {
+		return !(this.props === nextProps || is(this.props, nextProps)) ||
+			!(this.state === nextState || is(this.state, nextState));
+	}
+
+	render() {}
+
+
+}
+
+SelectPlus.propTypes = propTypes;
+SelectPlus.defaultProps = defaultProps;
+
+export default SelectPlus;
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>im_react_demo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
